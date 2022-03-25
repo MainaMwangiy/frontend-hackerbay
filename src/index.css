@@ -1,0 +1,56 @@
+html, body, #root {
+  background: #fff;
+
+}
+.logic h1 {
+  font-size: 48px;
+}
+.logic h1, .logic p {
+  margin: 10px;
+}
+.logic {
+ text-align:center;
+}
+.grid {
+  font-family: 'Lobster', cursive;
+  min-width: 300px;
+  margin: 10px;
+}
+.grid html, .grid body, .grid #root {
+  background: azure;
+  height: 100%;
+}
+.grid .logic h1 {
+  font-size: 48px;
+}
+.grid .logic h1, .grid .logic p {
+  margin: 10px;
+}
+.grid .logic input {
+  margin-left: 10px;
+}
+
+.grid .grid .square {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background: lightgreen;
+  border: 1px solid darkgreen;
+  line-height: 60px;
+  text-align: center;
+}
+.grid .grid .square.zero {
+  background: beige;
+}
+.grid .square {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  text-align: center;
+}
+.grid .square.zero {
+  border: 1px solid;
+}
